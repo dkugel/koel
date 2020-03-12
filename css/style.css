@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../webfonts/fa-solid-900.ttf),
+    url(../webfonts/fa-solid-900.woff);
+    font-weight: bold;
+  }
+
+body, html {
+    height: 100%;
+    color: #706f6f;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.bg{
+    background-image: url(../img/bg.png);
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    height: 150px;
+    width: 100%;
+}
+
+.form-box{
+    background-color: #ffffff;
+    width: 50%;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 8px 8px 3px 0px rgba(0,0,0,0.75);
+}
+.mini-box{
+    position: relative;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    width: 70%;  
+    height: 180px;  
+    margin: 0 auto 10px auto;
+    padding: 20px;
+}
+.mini-box label{
+    text-align: center;
+    font-size: 2em;
+    color: #8fc045;
+    display: block;    
+}
+.koel-btn{
+    background-color: transparent;
+    color: #8fc045;
+    text-align: right;
+    border: none;
+    display: block;    
+    width: 100%;
+    font-size: 1.2em;
+}
+p small,.n-margen{
+    margin: 0;
+}
+
+input.empty {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
