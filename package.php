@@ -16,16 +16,52 @@
   <body>
         <header></header>           
         <div class="container-fluid">
+          <div class="main">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="desc-1">
-                    <p>Banner web</p>
-                    <img src="img/banner-web.jpg">
+                      <p>Banner web</p>
+                      <img src="img/banner-web.jpg" class="fn-img">
+                      <div class="row">
+                        <div class="col-12 boton">
+                          <img src="img/personalizar.png">
+                        </div>
+                      </div>
+                      <p>Email Footer</p>
+                      <img src="img/Email_footer-01.jpg" class="fn-img">
+                      <div class="row">
+                        <div class="col-12 boton">
+                          <img src="img/personalizar.png">
+                        </div>
+                      </div>
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-3"></div>
+                <div class="col-lg-4 revista">
+                  <p>Pieza revista</p>
+                  <div class="desc-1">
+                    <img src="img/revista.jpg" class="fn-revista">
+                    <div class="row">
+                      <div class="col-10 boton">
+                        <img src="img/descargar.png">
+                      </div>
+                      <div class="col-2"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 logo">
+                <p>Logo</p>
+                  <div class="desc-1">
+                    <img src="img/logo.png" class="fn-logo">
+                    <div class="row">
+                      <div class="col-10 boton">
+                        <img src="img/descargar.png">
+                      </div>
+                      <div class="col-lg-2 col-md-3 col-sm-3 col-3"></div>
+                    </div>
+                  </div>
+                </div>
             </div>
+          </div>
         </div>
         
 

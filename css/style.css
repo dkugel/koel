@@ -9,6 +9,7 @@ body, html {
     height: 100%;
     color: #706f6f;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 .bg{
@@ -29,7 +30,10 @@ header{
     height: 150px;
     width: 100%;
 }
-
+.main{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .form-box{
     background-color: #ffffff;
     width: 50%;
@@ -70,4 +74,66 @@ input.empty {
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
+}
+.desc-1 img{
+    margin: 0 auto;
+}
+.desc-1 .fn-img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.revista{
+    text-align: center;
+}
+.revista p{
+    text-align: left;
+    width: 65%;
+    margin: 0 auto 1rem auto;
+}
+.desc-1 .fn-revista{
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.logo{
+    text-align: center;
+    margin-top: 5%;
+}
+.logo p{
+    text-align: left;
+    width: 65%;
+    margin: 0 auto 1rem auto;
+}
+.fn-logo{
+    width: 65%;
+    margin: auto;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.boton{
+    max-width: 180px;
+    margin-top: 20px;  
+    margin-right: 0;  
+    margin-left: auto;
+    text-align: right;
+    display: block;
+}
+.boton img{
+    width: 100%;
+}
+@media(max-width:990px){
+    .fn-logo {
+        width: 40%;
+    }
+}
+@media(max-width:768px){
+    header{
+        height: 60px;
+    }    
 }
