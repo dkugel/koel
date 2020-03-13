@@ -42,7 +42,7 @@
                     <img src="img/revista.jpg" class="fn-revista">
                     <div class="row">
                       <div class="col-10 boton">
-                        <img src="img/descargar.png">
+                        <a href="https://koelnmesse.co/ferias/descargas/alimentec/revista.zip" target="_blank"><img src="img/descargar.png"></a>
                       </div>
                       <div class="col-2"></div>
                     </div>
@@ -54,7 +54,7 @@
                     <img src="img/logo.png" class="fn-logo">
                     <div class="row">
                       <div class="col-10 boton">
-                        <img src="img/descargar.png">
+                        <a href="https://koelnmesse.co/ferias/descargas/alimentec/logo.zip" target="_blank"><img src="img/descargar.png"></a>
                       </div>
                       <div class="col-lg-2 col-md-3 col-sm-3 col-3"></div>
                     </div>
