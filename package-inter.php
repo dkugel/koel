@@ -24,7 +24,7 @@
                       <img src="img/interzum/banner-web.jpg" class="fn-img">
                       <div class="row">
                         <div class="col-12 boton">
-                          <img src="img/personalizar.png">
+                          <a href="pers-iz-form.php"><img src="img/personalizar.png"></a>
                         </div>
                       </div>
                       <p>Email Footer</p>

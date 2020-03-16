@@ -6,3 +6,8 @@ $('#InputPassword1').on('keyup', function() {
         input.removeClass('empty');
     }
 });
+
+$( document ).ready(function() {
+    console.log( "ready!" );
+    
+});

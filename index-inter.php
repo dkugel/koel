@@ -24,7 +24,7 @@
                     <div class="form-box">
                         <p>Ingresa tu código de expositor</p>
                         <div class="mini-box">
-                            <form action="index.php" method="post" name="formulario1">                            
+                            <form action="index-inter.php" method="post" name="formulario1">                            
                                 <div class="form-group">
                                     <label for="InputPassword1">Password</label>
                                     <input type="password" class="form-control empty" id="InputPassword1" name="password" placeholder="&#xF023;">                                    
@@ -39,8 +39,7 @@
                             if (isset($_POST['enviar'])) {   
                                                                     
                                 $clave = filter_input(INPUT_POST,'password');
-                                
-                            
+                                                            
                                 $md5clave = md5($clave);
                                 
                                 if ($clave == '123456')
@@ -50,7 +49,7 @@
                                     $_SESSION['start'] = time();
                                     $_SESSION['expire'] = $_SESSION['start'] + (100 * 60) ;
                                     
-                                    header("Location:package.php"); 
+                                    header("Location:package-inter.php"); 
                                 }else{
                                     echo ' <font color="red">Clave incorrecta</font> ';                    
                                 }

@@ -1,3 +1,25 @@
+<?php
+session_start();	 
+	if (isset($_SESSION['loggedin']) & $_SESSION['loggedin'] == true)
+	{	 
+        }
+        else
+        {
+	echo "Esta pagina es solo para usuarios registrados.<br>";
+	echo "<a href='login.php'>Login Here!</a>";
+	 
+	exit;
+	}
+	$now = time(); // checking the time now when home page starts
+	 
+	if($now > $_SESSION['expire'])
+	{
+	session_destroy();
+	echo "Su sesion a terminado, <a href='login.php'>
+	      Necesita Hacer Login</a>";
+	exit;
+	}
+?>
 <!doctype html>
 <html lang="es">
   <head>
@@ -14,7 +36,8 @@
     <title>Feria Alimentec :: koelnmesse</title>
   </head>
   <body>
-        <header></header>           
+        <header></header>  
+                 
         <div class="container-fluid">
           <div class="main">
             <div class="row">
@@ -24,14 +47,14 @@
                       <img src="img/banner-web.jpg" class="fn-img">
                       <div class="row">
                         <div class="col-12 boton">
-                          <img src="img/personalizar.png">
+                        <a href="pers-al-form.php"><img src="img/personalizar.png"></a>
                         </div>
                       </div>
                       <p>Email Footer</p>
                       <img src="img/Email_footer-01.jpg" class="fn-img">
                       <div class="row">
                         <div class="col-12 boton">
-                          <img src="img/personalizar.png">
+                          <a href="pers-al-form.php"><img src="img/personalizar.png"></a>
                         </div>
                       </div>
                     </div>
